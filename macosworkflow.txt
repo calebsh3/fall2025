@@ -1,0 +1,5 @@
+*** CMD + SPACE = Search EVERYTHING
+
+CMD + Tab = Switch between windows of the same app 
+*** Control <sidearrows> = Switch between full-screen apps
+Control <uparrow> = Preview full-screen apps

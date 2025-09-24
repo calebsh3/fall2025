@@ -1,0 +1,51 @@
+What if we developed a voltage-controlled switch?
+
+-This is possible through MOSFET's
+	: using metal-oxidesemiconductors
+	: using the mechanism of field-effect transistors
+
+-You apply a voltage to the gate and it decides whether it is open or closed
+-An n-type mosfet turns on if the voltage from gate is positive
+
+0 V = Ground; Vdd = around 1.5 V, which is the high voltage (binary value of 1)
+
+n-types turn on when gate voltage is high
+p-types work if 1.5V at the pbottom and 0 V at the input gate, then current can flow
+
+Gates are based on complementary MOS (CMOS)
+- building using p-type and n-type transistors
+
+NOT gate truth table:
+A  Q      
+0V 1.5V 
+1.5V 0V 
+
+Analyzing another structure:
+
+A B Q
+0 0 1
+0 1 0
+1 0 0
+1 1 0
+
+This is a nor gate
+
+Notice, in CMOS, Vdd is always connected to p-type transistors and the n-type are connected to ground
+
+We decide how to write a functions down into different gates using heuristics:
+	: count literals, then add the number of operations
+	: also consider delay, which is the number of clock cycles to implement a circuit
+
+By both metrics, in this example:
+
+F = A(B+C) is the most efficient.
+
+
+SOP and POS Forms give us two-level logic
+
+- we can use 2 levels of NANDs
+- DeMorgan's law on the Or gate:
+	: OR of And's is the same as NAND or 
+- a minimal SOP expression can express every boolean function and can be implemented as AND-to-OR two level logic
+	: in other words, if you onlly have NAND and NOR, you can still implement SOP/POS. Using De Morgan's law, you can flip between AND/OR forms
+

@@ -1,0 +1,17 @@
+TODOLIST
+Format:
+<Class>: (<Assignment>) - Due <Date>
+
+
+AFST132: (Ragtime Assignment) - Due 9/25
+AFST132: (Week 5 quiz) - Due 9/24
+
+ECE120: (Office-hours) - Everyday
+ECE120: (Homework 4) - 9/25
+
+ENG100: (AO8: Wellness Reflection) - 9/21
+ENG100: (A07: Draft resume) - 9/28
+ENG100: (A06: Personal Calendar) - ASAP
+ENG100: (A04: Find 2 RSOs) - ASAP
+ENG100: (AO3: Course Quick Guide) - After Exam
+
