@@ -82,6 +82,7 @@ while a_0 < 10:
     a = a - 1
     a_0 += 1
     print("\n")
+"""
 
 5.4 Break and Continue
 
@@ -91,3 +92,5 @@ A break statement is used within a for or a while loop to allow the program exec
 
 Continue
 - Can be used to skip the execution of the remainder of a loop without exiting the loop entirely
+
+"""
